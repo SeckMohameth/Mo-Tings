@@ -2,7 +2,7 @@ import {useState, useEffect} from 'react'
 
 
 function About() {
-  // state hello again
+  // state hello again and again
   const [count, setCount] = useState(0);
   const [up, setUp] = useState(0);
 
