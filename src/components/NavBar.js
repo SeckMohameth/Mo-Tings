@@ -3,11 +3,11 @@ import './NavBar.css'
 function Navbar() {
     return (
         <div className="navBar">
-            <ul>
+            {/* <ul>
                 <li>Home</li>
                 <li>Contact</li>
                 <li>About</li>
-            </ul>
+            </ul> */}
         </div>
     )
 }

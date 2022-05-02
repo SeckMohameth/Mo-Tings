@@ -1,0 +1,17 @@
+.events {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+Card {
+    margin: 15px;
+}
+
+
+@media (max-width: 768px) {
+    .events {
+        flex-direction: column;
+        align-items: center;
+    }
+}
