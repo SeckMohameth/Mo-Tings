@@ -1,0 +1,11 @@
+.about-content {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+    font-size: x-large;
+    line-height: 5rem;
+}
+
+.about-content p {
+    margin: 10px;
+}

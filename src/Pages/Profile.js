@@ -6,13 +6,26 @@ function Profile() {
     let { username } = useParams();
   return (
     <div>
-      This is the Profile page for {username}
+      {/* <h1>This is the Profile page for {username} </h1> */}
+      <h1>Profile page</h1>
 
-    <button onClick={() => {
+      <div>
+        <label for="myfile">Upload a profile picture:</label>
+        <br />
+        <input type="file" id="myfile" name="myfile"/>
+      </div>
+
+
+      <div>
+        
+      </div>
+
+
+    {/* <button onClick={() => {
       navigate("/about")
     }}
     >
-      Change to about page</button>
+      Change to about page</button> */}
     </div>
   )
 }

@@ -1,7 +1,28 @@
+html,body {
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+}
+
 .events {
     display: flex;
     justify-content: space-around;
     margin: 20px;
+}
+
+.nav {
+    background-color: rgb(199, 33, 33);
+    height: 8vh;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
 }
 
 Card {
