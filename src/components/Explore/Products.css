@@ -1,0 +1,20 @@
+.product-card {
+    border: 1px rgb(73, 73, 73) solid;
+    display: flex;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    width: 100%;
+    background-color: rgb(237, 237, 237);
+    box-shadow: 5px 5px 5px rgb(152, 152, 152);
+}
+
+.product-card img {
+    width: 20%;
+    border-radius: 14px;
+}
+
+.product-card-content {
+    display: flex;
+    margin-left: 30px;
+}
+

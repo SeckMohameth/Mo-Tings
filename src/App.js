@@ -6,6 +6,7 @@ import Home from './Pages/Home'
 import About from './Pages/About'
 import Profile from './Pages/Profile'
 import Explore from './Pages/Explore'
+import Login from './Pages/Auth/Login'
 
 
 function App() {
@@ -23,7 +24,9 @@ function App() {
         <Route path="/explore" element={<Explore />} />
         <Route path="/about" element={<About />}/>
         <Route path="/profile" element={<Profile />}/>
+        <Route path="/auth/login" element={<Login />} />
       </Routes>
+     
     </div>
   );
 }
