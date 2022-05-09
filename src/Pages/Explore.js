@@ -5,6 +5,8 @@ import Sidebar from '../Components/Explore/Sidebar'
 import Products from '../Components/Explore/Products'
 
 function Explore() {
+
+
   return (
     <div>
         <h1>Explore Page</h1>
